@@ -42,3 +42,11 @@
 	git pull
 
   Git va télécharger les dernières modifications depuis GitHub et les ajouter à ton projet local
+
+4. Les commandes pour créer une branche et passer sur celle-ci 
+
+( Utilité : tu travailles sur un projet et tu veux ajouter une nouvelle fonctionnalité sans toucher à la version principale (main). Tu crées une branche, tu fais tes modifications, puis tu peux fusionner (merge) plus tard. )
+
+	Créer une branche	                        git branch nom-de-branche
+	Aller sur une branche                   	git checkout nom-de-branche
+	Créer et aller sur une branche en même temps	git checkout -b nom-de-branche
