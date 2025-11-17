@@ -33,3 +33,12 @@
   Si c’est la première fois que tu pushes sur une branche nouvellement créée :
 	
 	git push -u origin <nom-de-ta-branche>
+
+3. La commande pour faire un pull
+
+  Ouvre ton terminal (ou Git Bash si tu es sur Windows).
+  Va dans le dossier de ton projet :
+
+	git pull
+
+  Git va télécharger les dernières modifications depuis GitHub et les ajouter à ton projet local
