@@ -1,0 +1,35 @@
+1. Cloner un repository
+
+ Cloner un repository signifie télécharger le projet depuis GitHub (ou GitLab, etc.) pour l’avoir sur ton ordinateur.
+
+	git clone + lien du dossier github
+ Cette commande crée un dossier du projet sur ton ordinateur et configure Git pour suivre ce dépôt distant.
+
+2. Les 3 commandes pour faire un push
+
+ Faire un “push” signifie envoyer tes modifications vers le repository distant.
+ Voici les 3 étapes indispensables, dans l’ordre :
+
+  Étape 1 : Ajouter les fichiers modifiés
+
+  Tu dis à Git quels fichiers tu veux envoyer.
+
+	git add .
+
+  . signifie : ajouter tous les fichiers modifiés
+
+  tu peux aussi ajouter un fichier précis : git add fichier.txt
+
+  Étape 2 : Créer un commit
+
+  Le commit est une “photo” de tes modifications avec un message.
+
+	git commit -m "message de commit"
+
+  Étape 3 : Envoyer au repository (push)
+
+	git push
+
+  Si c’est la première fois que tu pushes sur une branche nouvellement créée :
+	
+	git push -u origin <nom-de-ta-branche>
